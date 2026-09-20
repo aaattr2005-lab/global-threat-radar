@@ -706,6 +706,214 @@
       ],
       "timestamp": 1789940740.8023188,
       "title": "Hundreds of Drones Target Moscow on Final Day of Russian Elections - The New York Times"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "moscow",
+        "targeted",
+        "ukraine",
+        "largest",
+        "ever",
+        "drone",
+        "attack",
+        "final",
+        "day",
+        "russia",
+        "election",
+        "cnn"
+      ],
+      "timestamp": 1789947252.272672,
+      "title": "Moscow targeted by Ukraine’s largest ever drone attack on final day of Russia’s election - CNN"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "defence",
+        "intercepted",
+        "houthi",
+        "missile",
+        "fired",
+        "riyadh",
+        "jazeera"
+      ],
+      "timestamp": 1789947252.6681237,
+      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drone",
+        "attack",
+        "kills",
+        "three",
+        "children",
+        "woman",
+        "kyiv",
+        "region",
+        "ukraine",
+        "reuters"
+      ],
+      "timestamp": 1789947252.9984617,
+      "title": "Russian drone attack kills three children and a woman in Kyiv region, Ukraine says - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "two",
+        "suspected",
+        "ballistic",
+        "missiles",
+        "off",
+        "east",
+        "coast",
+        "within",
+        "three",
+        "hours",
+        "reuters"
+      ],
+      "timestamp": 1789947253.359002,
+      "title": "North Korea fires two suspected ballistic missiles off east coast within three hours - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "targets",
+        "moscow",
+        "hundreds",
+        "drones",
+        "final",
+        "day",
+        "russian",
+        "election",
+        "guardian"
+      ],
+      "timestamp": 1789947253.703414,
+      "title": "Ukraine targets Moscow with hundreds of drones on final day of Russian election - The Guardian"
+    },
+    {
+      "event_type": "Drone",
+      "location": "موسكو",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "three",
+        "dead",
+        "moscow",
+        "region",
+        "drones",
+        "hit",
+        "oil",
+        "refinery",
+        "russian",
+        "capital",
+        "reuters"
+      ],
+      "timestamp": 1789947258.0593402,
+      "title": "Three dead in Moscow region, drones hit oil refinery in Russian capital - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "confirms",
+        "yemen",
+        "houthi",
+        "rebels",
+        "tried",
+        "attack",
+        "capital",
+        "ballistic",
+        "missile",
+        "news"
+      ],
+      "timestamp": 1789947258.3768818,
+      "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with a ballistic missile - AP News"
+    },
+    {
+      "event_type": "Missile",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "adapts",
+        "training",
+        "missile",
+        "lead",
+        "ballistic",
+        "onslaught",
+        "ukraine",
+        "reuters"
+      ],
+      "timestamp": 1789947258.7185874,
+      "title": "Russia adapts a training missile to lead its ballistic onslaught of Ukraine - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "drone",
+        "strike",
+        "train",
+        "calculated",
+        "escalation",
+        "putin",
+        "german",
+        "minister",
+        "reuters"
+      ],
+      "timestamp": 1789947259.0718515,
+      "title": "Drone strike on train is calculated escalation by Putin, German minister says - Reuters"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "air",
+        "defences",
+        "intercepted",
+        "houthi",
+        "ballistic",
+        "missile",
+        "targeting",
+        "riyadh",
+        "france"
+      ],
+      "timestamp": 1789947259.3952475,
+      "title": "Saudi Arabia says air defences intercepted Houthi ballistic missile targeting Riyadh - France 24"
     }
   ]
 }
