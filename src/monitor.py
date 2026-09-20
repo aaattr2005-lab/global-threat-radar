@@ -4,6 +4,8 @@ import json
 import time
 from pathlib import Path
 from datetime import datetime, timezone
+from urllib.parse import urlencode
+import xml.etree.ElementTree as ET
 
 import requests
 
@@ -11,8 +13,6 @@ import requests
 # =========================================================
 # SETTINGS
 # =========================================================
-
-GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 STATE_FILE = BASE_DIR / "state" / "seen.json"
@@ -24,46 +24,63 @@ MIN_CONFIDENCE = os.getenv("MIN_CONFIDENCE", "Unverified")
 MAX_ALERTS = int(os.getenv("MAX_ALERTS", "10"))
 DRY_RUN = os.getenv("DRY_RUN", "false").lower() in {"1", "true", "yes"}
 
-# GDELT accepted format: 1h / 2h / etc.
-# We use 1h because the live endpoint rejected 15min in testing.
-GDELT_TIMESPAN = "1h"
-GDELT_MAX_RECORDS = 250
-GDELT_RETRY_SECONDS = 6
-
 CONFIDENCE_RANK = {
     "Unverified": 1,
     "Likely": 2,
     "Confirmed": 3,
 }
 
+GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
+
+# One broad query to reduce request volume.
+NEWS_QUERY = (
+    '(missile OR missiles OR "ballistic missile" OR "cruise missile" '
+    'OR drone OR drones OR UAV OR UAS OR "air raid") '
+    '(launch OR launched OR attack OR strike OR intercept OR intercepted '
+    'OR interception OR siren OR warning OR alert) when:1h'
+)
+
 
 # =========================================================
 # TRUSTED SOURCES
+# Google News RSS gives publisher names, not always original domains.
 # =========================================================
 
-TIER_1_DOMAINS = {
-    "reuters.com",
-    "apnews.com",
-    "bbc.com",
-    "bbc.co.uk",
-    "aljazeera.com",
-    "france24.com",
-    "dw.com",
-    "bloomberg.com",
-    "cnn.com",
-    "skynews.com",
-    "euronews.com",
-    "arabnews.com",
-    "aa.com.tr",
-    "theguardian.com",
-    "nytimes.com",
-    "wsj.com",
+TIER_1_SOURCE_NAMES = {
+    "reuters",
+    "associated press",
+    "ap news",
+    "bbc",
+    "al jazeera",
+    "france 24",
+    "dw",
+    "bloomberg",
+    "cnn",
+    "sky news",
+    "euronews",
+    "arab news",
+    "anadolu agency",
+    "the guardian",
+    "the new york times",
+    "the wall street journal",
+}
+
+OFFICIAL_SOURCE_HINTS = {
+    "ministry of defense",
+    "ministry of defence",
+    "civil defense",
+    "civil defence",
+    "government",
+    "armed forces",
+    "military",
+    "defense ministry",
+    "defence ministry",
 }
 
 
 # =========================================================
 # LOCATIONS
-# Keep cities before countries so the alert is as specific as possible.
+# Cities first, then countries.
 # =========================================================
 
 LOCATIONS = [
@@ -264,34 +281,20 @@ def detect_location(title):
 # SOURCE SCORING
 # =========================================================
 
-def is_official_domain(domain):
-    domain = (domain or "").lower()
-
-    patterns = [
-        r"(^|\.)gov(\.|$)",
-        r"(^|\.)mil(\.|$)",
-        r"\.gov\.[a-z]{2,3}$",
-        r"\.mil\.[a-z]{2,3}$",
-        r"\.gov\.sa$",
-    ]
-
-    return any(re.search(pattern, domain) for pattern in patterns)
-
-
 def source_score(article):
-    domain = (article.get("domain") or "").lower()
+    source = (article.get("source") or "").strip().lower()
     title = (article.get("title") or "").lower()
 
-    score = 0
+    score = 20
     official = False
 
-    if is_official_domain(domain):
-        score += 100
+    if any(hint in source for hint in OFFICIAL_SOURCE_HINTS):
+        score = 100
         official = True
-    elif domain in TIER_1_DOMAINS:
-        score += 55
-    else:
-        score += 20
+    elif source in TIER_1_SOURCE_NAMES:
+        score = 55
+    elif any(name in source for name in TIER_1_SOURCE_NAMES):
+        score = 50
 
     if re.search(
         r"\b(defense ministry|defence ministry|ministry of defense|"
@@ -314,102 +317,80 @@ def source_score(article):
 
 
 # =========================================================
-# GDELT
+# GOOGLE NEWS RSS
 # =========================================================
 
-def parse_gdelt_json(response):
-    """Parse JSON regardless of a misleading Content-Type header."""
-    body = response.text.strip()
-
-    if not body:
-        print("GDELT returned an empty response.")
-        return None
-
-    try:
-        return json.loads(body)
-    except json.JSONDecodeError:
-        print("GDELT returned non-JSON response:")
-        print(body[:1500])
-        return None
-
-
-def request_gdelt(query, retry_on_429=True):
+def fetch_articles():
     params = {
-        "query": query,
-        "mode": "artlist",
-        "format": "json",
-        "maxrecords": GDELT_MAX_RECORDS,
-        "timespan": GDELT_TIMESPAN,
-        "sort": "DateDesc",
+        "q": NEWS_QUERY,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
     }
 
+    url = GOOGLE_NEWS_RSS + "?" + urlencode(params)
+
+    print("Google News RSS query:", NEWS_QUERY)
+
     headers = {
-        "User-Agent": "GlobalThreatRadar/1.1",
-        "Accept": "application/json,text/plain,*/*",
+        "User-Agent": "Mozilla/5.0 GlobalThreatRadar/1.2",
+        "Accept": "application/rss+xml,application/xml,text/xml,*/*",
     }
 
     try:
         response = requests.get(
-            GDELT_URL,
-            params=params,
+            url,
             headers=headers,
             timeout=40,
         )
     except requests.RequestException as exc:
-        print("GDELT connection error:")
+        print("Google News connection error:")
         print(exc)
-        return None
+        return []
 
-    print("GDELT URL:", response.url)
-    print("GDELT status:", response.status_code)
-    print("GDELT content-type:", response.headers.get("content-type"))
-
-    if response.status_code == 429 and retry_on_429:
-        print(f"GDELT rate limited us. Waiting {GDELT_RETRY_SECONDS} seconds...")
-        time.sleep(GDELT_RETRY_SECONDS)
-        return request_gdelt(query, retry_on_429=False)
+    print("Google News status:", response.status_code)
+    print("Google News content-type:", response.headers.get("content-type"))
 
     if response.status_code != 200:
-        print("GDELT HTTP error:")
+        print("Google News HTTP error:")
         print(response.text[:1000])
-        return None
-
-    return parse_gdelt_json(response)
-
-
-def fetch_articles():
-    primary_query = (
-        '(missile OR "ballistic missile" OR "cruise missile" '
-        'OR drone OR UAV OR UAS OR "air raid") '
-        '(launch OR launched OR attack OR strike OR intercept '
-        'OR intercepted OR interception OR siren OR warning OR alert)'
-    )
-
-    data = request_gdelt(primary_query)
-
-    # Fallback only if the main query failed.
-    # Wait first so we respect the API rate limit seen in the live response.
-    if data is None:
-        print(f"Waiting {GDELT_RETRY_SECONDS} seconds before fallback...")
-        time.sleep(GDELT_RETRY_SECONDS)
-
-        print("Trying fallback GDELT query...")
-
-        fallback_query = 'missile OR drone OR UAV OR "air raid"'
-        data = request_gdelt(fallback_query)
-
-    if data is None:
-        print("GDELT unavailable. Exiting cleanly.")
         return []
 
-    articles = data.get("articles", [])
-
-    if not isinstance(articles, list):
-        print("Unexpected GDELT response structure:")
-        print(str(data)[:1500])
+    try:
+        root = ET.fromstring(response.content)
+    except ET.ParseError as exc:
+        print("RSS XML parse error:")
+        print(exc)
+        print(response.text[:1500])
         return []
 
-    print("Articles received:", len(articles))
+    articles = []
+
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+
+        source_el = item.find("source")
+        source = ""
+        source_url = ""
+
+        if source_el is not None:
+            source = (source_el.text or "").strip()
+            source_url = (source_el.attrib.get("url") or "").strip()
+
+        if not title or not link:
+            continue
+
+        articles.append({
+            "title": title,
+            "url": link,
+            "source": source,
+            "source_url": source_url,
+            "date": pub_date,
+        })
+
+    print("RSS articles received:", len(articles))
     return articles
 
 
@@ -436,7 +417,6 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-
     temporary = STATE_FILE.with_suffix(".tmp")
 
     with temporary.open("w", encoding="utf-8") as file:
@@ -472,7 +452,7 @@ def prepare_articles(raw_articles):
     for article in raw_articles:
         title = str(article.get("title") or "").strip()
         url = str(article.get("url") or "").strip()
-        domain = str(article.get("domain") or "").lower().strip()
+        source = str(article.get("source") or "").strip()
 
         if not title or not url:
             continue
@@ -487,13 +467,14 @@ def prepare_articles(raw_articles):
         output.append({
             "title": title,
             "url": url,
-            "domain": domain,
+            "source": source,
+            "source_url": article.get("source_url", ""),
             "event_type": detected_type,
             "location": detect_location(title),
             "tokens": normalize_tokens(title),
             "score": score,
             "official": official,
-            "date": article.get("seendate", ""),
+            "date": article.get("date", ""),
         })
 
     return output
@@ -560,10 +541,10 @@ def cluster_articles(articles):
 def analyze_cluster(cluster):
     articles = cluster["articles"]
 
-    domains = {
-        article["domain"]
+    independent_sources = {
+        article["source"].lower()
         for article in articles
-        if article["domain"]
+        if article["source"]
     }
 
     best = max(articles, key=lambda article: article["score"])
@@ -571,9 +552,9 @@ def analyze_cluster(cluster):
     official = any(article["official"] for article in articles)
 
     if not official:
-        if len(domains) >= 3:
+        if len(independent_sources) >= 3:
             score += 40
-        elif len(domains) == 2:
+        elif len(independent_sources) == 2:
             score += 30
 
     score = max(0, min(100, score))
@@ -593,7 +574,7 @@ def analyze_cluster(cluster):
         "event_type": cluster["event_type"],
         "location": cluster["location"],
         "articles": articles,
-        "domains": list(domains),
+        "sources": list(independent_sources),
         "best": best,
         "score": score,
         "confidence": confidence,
@@ -668,9 +649,9 @@ def create_message(event, update=False):
     sources = []
 
     for number, article in enumerate(sorted_articles[:3], start=1):
-        domain = article["domain"] or "Source"
+        source = article["source"] or "Source"
         sources.append(
-            f"{number}) {domain}\n{article['url']}"
+            f"{number}) {source}\n{article['url']}"
         )
 
     event_time = (
@@ -685,7 +666,7 @@ def create_message(event, update=False):
         f"{confidence_icon(event['confidence'])} الحالة: "
         f"{confidence_ar(event['confidence'])} / {event['confidence']}\n"
         f"📊 درجة الثقة: {event['score']}/100\n"
-        f"🧩 مصادر مستقلة: {len(event['domains'])}\n"
+        f"🧩 مصادر مستقلة: {len(event['sources'])}\n"
         f"🕒 وقت المصدر: {event_time}\n\n"
         f"📰 {best['title']}\n\n"
         f"المصادر:\n"
@@ -735,7 +716,8 @@ def send_telegram(message):
 
 def main():
     print("=================================")
-    print("Global Threat Radar v1.1 starting...")
+    print("Global Threat Radar v1.2 starting...")
+    print("Source: Google News RSS")
     print("=================================")
 
     state = prune_state(load_state())
@@ -763,7 +745,7 @@ def main():
         key=lambda event: (
             CONFIDENCE_RANK[event["confidence"]],
             event["score"],
-            len(event["domains"]),
+            len(event["sources"]),
         ),
         reverse=True,
     )
