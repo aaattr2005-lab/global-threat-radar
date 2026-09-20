@@ -240,6 +240,219 @@
       ],
       "timestamp": 1789927495.753137,
       "title": "Three dead in Moscow region, drones hit oil refinery in Russian capital - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كوريا الشمالية",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "north",
+        "korea",
+        "conducts",
+        "major",
+        "integrated",
+        "strike",
+        "exercise",
+        "combining",
+        "missiles",
+        "drones",
+        "rocket",
+        "artillery",
+        "military",
+        "watch",
+        "magazine"
+      ],
+      "timestamp": 1789932637.465149,
+      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
+    },
+    {
+      "event_type": "Drone",
+      "location": "موسكو",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "votes",
+        "wartime",
+        "election",
+        "drones",
+        "strike",
+        "moscow",
+        "reuters"
+      ],
+      "timestamp": 1789932638.0576549,
+      "title": "Russia votes in wartime election as drones strike Moscow - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "confirms",
+        "yemen",
+        "houthi",
+        "rebels",
+        "tried",
+        "attack",
+        "capital",
+        "ballistic",
+        "missile",
+        "news"
+      ],
+      "timestamp": 1789932638.6019976,
+      "title": "Saudi Arabia confirms Yemen’s Houthi rebels tried to attack its capital with a ballistic missile - AP News"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "four-minute",
+        "warning",
+        "isn",
+        "enough",
+        "russia",
+        "relentless",
+        "missile",
+        "tactics",
+        "exhaust",
+        "kyiv",
+        "residents",
+        "bbc"
+      ],
+      "timestamp": 1789932639.1511412,
+      "title": "A four-minute warning isn't enough: Russia's new relentless missile tactics exhaust Kyiv residents - BBC"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "drone",
+        "strike",
+        "train",
+        "calculated",
+        "escalation",
+        "putin",
+        "german",
+        "minister",
+        "reuters"
+      ],
+      "timestamp": 1789932639.6429205,
+      "title": "Drone strike on train is calculated escalation by Putin, German minister says - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "two",
+        "killed",
+        "missile",
+        "strike",
+        "arcelormittal",
+        "ukraine",
+        "plant",
+        "company",
+        "reuters"
+      ],
+      "timestamp": 1789932643.1923866,
+      "title": "Two killed in missile strike on ArcelorMittal Ukraine plant, company says - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "مكة",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "warns",
+        "red",
+        "line",
+        "houthi",
+        "drone",
+        "intercepted",
+        "close",
+        "holy",
+        "city",
+        "mecca",
+        "guardian"
+      ],
+      "timestamp": 1789932643.6759923,
+      "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca - The Guardian"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "air",
+        "defences",
+        "intercepted",
+        "houthi",
+        "ballistic",
+        "missile",
+        "targeting",
+        "riyadh",
+        "france"
+      ],
+      "timestamp": 1789932644.1704783,
+      "title": "Saudi Arabia says air defences intercepted Houthi ballistic missile targeting Riyadh - France 24"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الجنوبية",
+      "confidence": "Likely",
+      "score": 50,
+      "tokens": [
+        "south",
+        "korea",
+        "north",
+        "launched",
+        "ballistic",
+        "missile",
+        "another",
+        "projectile",
+        "toward",
+        "sea",
+        "politico",
+        "tribune-democrat"
+      ],
+      "timestamp": 1789932644.704306,
+      "title": "South Korea says North Korea launched a ballistic missile and another projectile toward the sea - Politico"
+    },
+    {
+      "event_type": "Drone",
+      "location": "اليابان",
+      "confidence": "Likely",
+      "score": 50,
+      "tokens": [
+        "north",
+        "korea",
+        "tests",
+        "missiles",
+        "attack",
+        "drones",
+        "island",
+        "sea",
+        "japan",
+        "usni",
+        "news",
+        "realcleardefense"
+      ],
+      "timestamp": 1789932645.2053642,
+      "title": "North Korea Tests Missiles, Attack Drones on Island in Sea of Japan - USNI News"
     }
   ]
 }
