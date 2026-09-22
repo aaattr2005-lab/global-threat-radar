@@ -2731,6 +2731,227 @@
       ],
       "timestamp": 1790076616.9144347,
       "title": "Moscow targeted by Ukraine’s largest ever drone attack on final day of Russia’s election - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كوريا الشمالية",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "north",
+        "korea",
+        "conducts",
+        "major",
+        "integrated",
+        "strike",
+        "exercise",
+        "combining",
+        "missiles",
+        "drones",
+        "rocket",
+        "artillery",
+        "militarywatchmagazine",
+        "com"
+      ],
+      "timestamp": 1790091466.610638,
+      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - militarywatchmagazine.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "least",
+        "five",
+        "killed",
+        "russian",
+        "drone",
+        "strike",
+        "ukraine",
+        "front",
+        "line",
+        "jazeera",
+        "bus",
+        "southern",
+        "euronews",
+        "com"
+      ],
+      "timestamp": 1790091467.0365477,
+      "title": "At least five killed in Russian drone strike near Ukraine front line - Al Jazeera"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Confirmed",
+      "score": 80,
+      "tokens": [
+        "north",
+        "korea",
+        "kim",
+        "hails",
+        "new-type",
+        "weapon",
+        "days",
+        "missile",
+        "launch",
+        "sparks",
+        "anger",
+        "euronews",
+        "com",
+        "cna"
+      ],
+      "timestamp": 1790091467.5133262,
+      "title": "North Korea's Kim hails 'new-type weapon' days after missile launch sparks anger - Euronews.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 70,
+      "tokens": [
+        "drones",
+        "attack",
+        "kuibyshev",
+        "oil",
+        "refinery",
+        "russia",
+        "samara",
+        "oblast",
+        "photos",
+        "video",
+        "ukranews",
+        "com",
+        "media",
+        "ukrinform"
+      ],
+      "timestamp": 1790091467.979639,
+      "title": "Drones attack Kuibyshev oil refinery in Russia's Samara Oblast – photos, video - Українська правда"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "ukraine",
+        "fires",
+        "over",
+        "000",
+        "drones",
+        "russia",
+        "including",
+        "largest",
+        "ever",
+        "attack",
+        "moscow",
+        "pbs",
+        "wtop",
+        "news",
+        "livenowfox",
+        "com"
+      ],
+      "timestamp": 1790091468.464185,
+      "title": "Ukraine fires over 1,000 drones at Russia, including 'largest ever' attack on Moscow - PBS"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "ukrainian",
+        "drone",
+        "attack",
+        "kills",
+        "one",
+        "samara",
+        "region",
+        "reuters"
+      ],
+      "timestamp": 1790091471.9184043,
+      "title": "Russia says Ukrainian drone attack kills one in its Samara region - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "watch",
+        "ukraine",
+        "race",
+        "counter",
+        "jet-powered",
+        "russian",
+        "drones",
+        "bbc"
+      ],
+      "timestamp": 1790091472.2744544,
+      "title": "Watch: Ukraine's race to counter new jet-powered Russian drones - BBC"
+    },
+    {
+      "event_type": "Drone",
+      "location": "موسكو",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "hundreds",
+        "drones",
+        "target",
+        "moscow",
+        "final",
+        "day",
+        "russian",
+        "elections",
+        "york",
+        "times"
+      ],
+      "timestamp": 1790091472.688943,
+      "title": "Hundreds of Drones Target Moscow on Final Day of Russian Elections - The New York Times"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "moscow",
+        "targeted",
+        "ukraine",
+        "largest",
+        "ever",
+        "drone",
+        "attack",
+        "final",
+        "day",
+        "russia",
+        "election",
+        "cnn"
+      ],
+      "timestamp": 1790091473.0551043,
+      "title": "Moscow targeted by Ukraine’s largest ever drone attack on final day of Russia’s election - CNN"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "launches",
+        "ballistic",
+        "missiles",
+        "toward",
+        "sea",
+        "dials",
+        "pressure",
+        "news"
+      ],
+      "timestamp": 1790091473.3947098,
+      "title": "North Korea launches 2 ballistic missiles toward the sea and dials up pressure on the US - AP News"
     }
   ]
 }
