@@ -2587,6 +2587,211 @@
       ],
       "timestamp": 1790173575.5146375,
       "title": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine? - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كوريا الشمالية",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "north",
+        "korea",
+        "conducts",
+        "major",
+        "integrated",
+        "strike",
+        "exercise",
+        "combining",
+        "missiles",
+        "drones",
+        "rocket",
+        "artillery",
+        "military",
+        "watch",
+        "magazine"
+      ],
+      "timestamp": 1790188239.2483976,
+      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "least",
+        "five",
+        "killed",
+        "russian",
+        "drone",
+        "strike",
+        "ukraine",
+        "front",
+        "line",
+        "jazeera",
+        "bus",
+        "southern",
+        "euronews",
+        "com"
+      ],
+      "timestamp": 1790188239.639034,
+      "title": "At least five killed in Russian drone strike near Ukraine front line - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "drones",
+        "attack",
+        "kuibyshev",
+        "oil",
+        "refinery",
+        "russia",
+        "samara",
+        "oblast",
+        "photos",
+        "video",
+        "ukranews",
+        "com"
+      ],
+      "timestamp": 1790188240.087988,
+      "title": "Drones attack Kuibyshev oil refinery in Russia's Samara Oblast – photos, video - Українська правда"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "pounds",
+        "kyiv",
+        "drone",
+        "strikes",
+        "zelenskiy-trump",
+        "talks",
+        "reuters"
+      ],
+      "timestamp": 1790188240.43648,
+      "title": "Russia pounds Kyiv with drone strikes after Zelenskiy-Trump talks - Reuters"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "defence",
+        "intercepted",
+        "houthi",
+        "missile",
+        "fired",
+        "riyadh",
+        "jazeera"
+      ],
+      "timestamp": 1790188240.794153,
+      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "two",
+        "suspected",
+        "ballistic",
+        "missiles",
+        "off",
+        "east",
+        "coast",
+        "within",
+        "three",
+        "hours",
+        "reuters"
+      ],
+      "timestamp": 1790188247.1972036,
+      "title": "North Korea fires two suspected ballistic missiles off east coast within three hours - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "missile",
+        "drone",
+        "what",
+        "pelican",
+        "used",
+        "ukraine",
+        "jazeera"
+      ],
+      "timestamp": 1790188247.5489657,
+      "title": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine? - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "ukrainian",
+        "drone",
+        "attack",
+        "kills",
+        "one",
+        "samara",
+        "region",
+        "reuters"
+      ],
+      "timestamp": 1790188247.9534023,
+      "title": "Russia says Ukrainian drone attack kills one in its Samara region - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "adapts",
+        "training",
+        "missile",
+        "lead",
+        "ballistic",
+        "onslaught",
+        "ukraine",
+        "reuters"
+      ],
+      "timestamp": 1790188248.3631349,
+      "title": "Russia adapts a training missile to lead its ballistic onslaught of Ukraine - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "watch",
+        "ukraine",
+        "race",
+        "counter",
+        "jet-powered",
+        "russian",
+        "drones",
+        "bbc"
+      ],
+      "timestamp": 1790188248.806428,
+      "title": "Watch: Ukraine's race to counter new jet-powered Russian drones - BBC"
     }
   ]
 }
