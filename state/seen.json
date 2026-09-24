@@ -2656,6 +2656,222 @@
       ],
       "timestamp": 1790222029.0005174,
       "title": "EXCLUSIVE: Lithuania plans key substation near Russia, fortified against explosive drones - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كوريا الشمالية",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "north",
+        "korea",
+        "conducts",
+        "major",
+        "integrated",
+        "strike",
+        "exercise",
+        "combining",
+        "missiles",
+        "drones",
+        "rocket",
+        "artillery",
+        "military",
+        "watch",
+        "magazine"
+      ],
+      "timestamp": 1790239875.8652425,
+      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "two",
+        "dead",
+        "six",
+        "injured",
+        "russian",
+        "missile",
+        "strike",
+        "kyiv",
+        "tvp",
+        "world",
+        "least",
+        "killed",
+        "news",
+        "azerbaijan",
+        "under",
+        "attack",
+        "mayor",
+        "internazionale"
+      ],
+      "timestamp": 1790239876.3590207,
+      "title": "Two dead, six injured after Russian missile strike on Kyiv - TVP World"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "russian",
+        "drones",
+        "strike",
+        "kyiv",
+        "zelenskyy",
+        "speech",
+        "nbcnews",
+        "com",
+        "jet-powered",
+        "injuring",
+        "independent",
+        "kharkiv",
+        "least",
+        "three",
+        "people"
+      ],
+      "timestamp": 1790239876.8663669,
+      "title": "Russian drones strike Kyiv before Zelenskyy's U.N. speech - nbcnews.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "drones",
+        "attack",
+        "kuibyshev",
+        "oil",
+        "refinery",
+        "russia",
+        "samara",
+        "oblast",
+        "photos",
+        "video",
+        "ukranews",
+        "com"
+      ],
+      "timestamp": 1790239877.3730953,
+      "title": "Drones attack Kuibyshev oil refinery in Russia's Samara Oblast – photos, video - Українська правда"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "hits",
+        "kyiv",
+        "ballistic",
+        "missiles",
+        "drones",
+        "killing",
+        "two",
+        "reuters"
+      ],
+      "timestamp": 1790239877.863811,
+      "title": "Russia hits Kyiv with ballistic missiles, drones, killing two - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "attack",
+        "kyiv",
+        "daytime",
+        "hours",
+        "wednesday",
+        "cnn"
+      ],
+      "timestamp": 1790239881.3578324,
+      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "damage",
+        "across",
+        "kyiv",
+        "one",
+        "russia",
+        "heaviest",
+        "drone",
+        "attacks",
+        "reuters"
+      ],
+      "timestamp": 1790239881.8317883,
+      "title": "Damage across Kyiv after one of Russia's heaviest drone attacks - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "two",
+        "suspected",
+        "ballistic",
+        "missiles",
+        "off",
+        "east",
+        "coast",
+        "within",
+        "three",
+        "hours",
+        "reuters"
+      ],
+      "timestamp": 1790239882.3774247,
+      "title": "North Korea fires two suspected ballistic missiles off east coast within three hours - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "missile",
+        "drone",
+        "what",
+        "pelican",
+        "used",
+        "ukraine",
+        "jazeera"
+      ],
+      "timestamp": 1790239882.847544,
+      "title": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine? - Al Jazeera"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "defence",
+        "intercepted",
+        "houthi",
+        "missile",
+        "fired",
+        "riyadh",
+        "jazeera"
+      ],
+      "timestamp": 1790239883.3571994,
+      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
     }
   ]
 }
