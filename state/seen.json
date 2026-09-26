@@ -22,217 +22,6 @@
         "watch",
         "magazine"
       ],
-      "timestamp": 1790272816.946836,
-      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
-    },
-    {
-      "event_type": "Missile interception",
-      "location": "السعودية",
-      "confidence": "Confirmed",
-      "score": 85,
-      "tokens": [
-        "saudi-led",
-        "coalition",
-        "shot",
-        "down",
-        "ballistic",
-        "missiles",
-        "launched",
-        "houthis",
-        "jazeera",
-        "yemen",
-        "intercepted",
-        "com"
-      ],
-      "timestamp": 1790272817.4016743,
-      "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis - Al Jazeera"
-    },
-    {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Confirmed",
-      "score": 85,
-      "tokens": [
-        "ukrainian",
-        "students",
-        "flee",
-        "russian",
-        "drone",
-        "attack",
-        "cnn",
-        "modern",
-        "ghana"
-      ],
-      "timestamp": 1790272817.7823076,
-      "title": "Ukrainian students flee Russian drone attack - CNN"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Likely",
-      "score": 60,
-      "tokens": [
-        "two",
-        "killed",
-        "russian",
-        "ballistic",
-        "missile",
-        "drone",
-        "attack",
-        "kyiv",
-        "radio",
-        "free",
-        "europe",
-        "liberty",
-        "kills",
-        "injures",
-        "day",
-        "strikes",
-        "independent",
-        "against",
-        "apa"
-      ],
-      "timestamp": 1790272818.2089593,
-      "title": "Two Killed In Russian Ballistic Missile, Drone Attack On Kyiv - Radio Free Europe/Radio Liberty"
-    },
-    {
-      "event_type": "Missile",
-      "location": "السعودية",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "saudi",
-        "arabia",
-        "thwarts",
-        "houthi",
-        "ballistic",
-        "missiles",
-        "yemen",
-        "saudi-led",
-        "coalition",
-        "reuters"
-      ],
-      "timestamp": 1790272818.5902073,
-      "title": "Saudi Arabia thwarts Houthi ballistic missiles, Yemen's Saudi-led coalition says - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "أوكرانيا",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "long-range",
-        "drone",
-        "war",
-        "ukraine",
-        "russia",
-        "scramble",
-        "supremacy",
-        "skies",
-        "guardian"
-      ],
-      "timestamp": 1790272822.0288277,
-      "title": "The long-range drone war: Ukraine and Russia scramble for supremacy in the skies - The Guardian"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "russian",
-        "drones",
-        "attack",
-        "kyiv",
-        "daytime",
-        "hours",
-        "wednesday",
-        "cnn"
-      ],
-      "timestamp": 1790272822.4136174,
-      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "damage",
-        "across",
-        "kyiv",
-        "one",
-        "russia",
-        "heaviest",
-        "drone",
-        "attacks",
-        "reuters"
-      ],
-      "timestamp": 1790272822.747587,
-      "title": "Damage across Kyiv after one of Russia's heaviest drone attacks - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "موسكو",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "three",
-        "dead",
-        "moscow",
-        "region",
-        "drones",
-        "hit",
-        "oil",
-        "refinery",
-        "russian",
-        "capital",
-        "reuters"
-      ],
-      "timestamp": 1790272823.219645,
-      "title": "Three dead in Moscow region, drones hit oil refinery in Russian capital - Reuters"
-    },
-    {
-      "event_type": "Missile interception",
-      "location": "الرياض",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "saudi-led",
-        "coalition",
-        "defence",
-        "intercepted",
-        "houthi",
-        "missile",
-        "fired",
-        "riyadh",
-        "jazeera"
-      ],
-      "timestamp": 1790272823.6041486,
-      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كوريا الشمالية",
-      "confidence": "Confirmed",
-      "score": 100,
-      "tokens": [
-        "north",
-        "korea",
-        "conducts",
-        "major",
-        "integrated",
-        "strike",
-        "exercise",
-        "combining",
-        "missiles",
-        "drones",
-        "rocket",
-        "artillery",
-        "military",
-        "watch",
-        "magazine"
-      ],
       "timestamp": 1790285100.1192458,
       "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
     },
@@ -2921,6 +2710,225 @@
       ],
       "timestamp": 1790443697.4926734,
       "title": "Ukraine kills two in drone attacks on Russia, hits oil refinery and train, officials say - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "السعودية",
+      "confidence": "Confirmed",
+      "score": 95,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepts",
+        "houthi",
+        "missiles",
+        "drones",
+        "reuters",
+        "arabia",
+        "intercepted",
+        "caliber",
+        "saudi-led",
+        "ratopati"
+      ],
+      "timestamp": 1790453052.641605,
+      "title": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "germany",
+        "russia",
+        "responsible",
+        "drone",
+        "attack",
+        "leipzig",
+        "airport",
+        "reuters",
+        "behind",
+        "bbc",
+        "com"
+      ],
+      "timestamp": 1790453053.1821086,
+      "title": "Germany says Russia responsible for drone attack at Leipzig airport - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "الرياض",
+      "confidence": "Confirmed",
+      "score": 80,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepted",
+        "houthi",
+        "drones",
+        "headed",
+        "riyadh",
+        "times",
+        "israel",
+        "intercepts",
+        "bound",
+        "euronews",
+        "com",
+        "arabia",
+        "downed",
+        "launched"
+      ],
+      "timestamp": 1790453053.7364793,
+      "title": "Saudi coalition intercepts Houthi drones bound for Riyadh - Euronews.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Confirmed",
+      "score": 80,
+      "tokens": [
+        "least",
+        "five",
+        "killed",
+        "russian",
+        "drone",
+        "strike",
+        "ukraine",
+        "front",
+        "line",
+        "aljazeera",
+        "com",
+        "bus",
+        "southern",
+        "euronews"
+      ],
+      "timestamp": 1790453054.300815,
+      "title": "Five killed in Russian drone strike on bus in southern Ukraine - Euronews.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "drone",
+        "strike",
+        "causes",
+        "fire",
+        "ilsky",
+        "oil",
+        "refinery",
+        "krasnodar",
+        "krai",
+        "drones",
+        "attack",
+        "russia",
+        "catches",
+        "photos",
+        "video",
+        "pravda",
+        "com"
+      ],
+      "timestamp": 1790453054.8645213,
+      "title": "Drones attack Russia's Krasnodar Krai: Ilsky oil refinery catches fire – photos, video - pravda.com.ua"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "regional",
+        "head",
+        "facilities",
+        "ablaze",
+        "drone",
+        "strike",
+        "bloomberg"
+      ],
+      "timestamp": 1790453058.401809,
+      "title": "Russian Regional Head Says Facilities Ablaze After Drone Strike - Bloomberg"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "attack",
+        "kyiv",
+        "daytime",
+        "hours",
+        "wednesday",
+        "cnn"
+      ],
+      "timestamp": 1790453058.9785485,
+      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "kills",
+        "two",
+        "drone",
+        "attacks",
+        "russia",
+        "hits",
+        "oil",
+        "refinery",
+        "train",
+        "officials",
+        "reuters"
+      ],
+      "timestamp": 1790453059.4992142,
+      "title": "Ukraine kills two in drone attacks on Russia, hits oil refinery and train, officials say - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukrainian",
+        "students",
+        "flee",
+        "russian",
+        "drone",
+        "attack",
+        "cnn"
+      ],
+      "timestamp": 1790453060.007675,
+      "title": "Ukrainian students flee Russian drone attack - CNN"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "two",
+        "suspected",
+        "ballistic",
+        "missiles",
+        "off",
+        "east",
+        "coast",
+        "within",
+        "three",
+        "hours",
+        "reuters"
+      ],
+      "timestamp": 1790453060.530564,
+      "title": "North Korea fires two suspected ballistic missiles off east coast within three hours - Reuters"
     }
   ]
 }
