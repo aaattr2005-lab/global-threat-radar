@@ -2,225 +2,6 @@
   "events": [
     {
       "event_type": "Drone",
-      "location": "كوريا الشمالية",
-      "confidence": "Confirmed",
-      "score": 100,
-      "tokens": [
-        "north",
-        "korea",
-        "conducts",
-        "major",
-        "integrated",
-        "strike",
-        "exercise",
-        "combining",
-        "missiles",
-        "drones",
-        "rocket",
-        "artillery",
-        "military",
-        "watch",
-        "magazine"
-      ],
-      "timestamp": 1790381508.77477,
-      "title": "North Korea Conducts Major Integrated Strike Exercise Combining Missiles, Drones and Rocket Artillery - Military Watch Magazine"
-    },
-    {
-      "event_type": "Drone",
-      "location": "روسيا",
-      "confidence": "Confirmed",
-      "score": 95,
-      "tokens": [
-        "russia",
-        "perm",
-        "oil",
-        "refinery",
-        "halted",
-        "operations",
-        "friday",
-        "drone",
-        "attack",
-        "sources",
-        "reuters",
-        "ukrainian",
-        "halts",
-        "mezha",
-        "net",
-        "shut",
-        "down",
-        "following",
-        "news",
-        "novoshakhtinsk"
-      ],
-      "timestamp": 1790381509.310073,
-      "title": "Russia's Perm oil refinery halted operations after Friday drone attack, sources say - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Confirmed",
-      "score": 85,
-      "tokens": [
-        "ukraine",
-        "deadly",
-        "russian",
-        "drone",
-        "strike",
-        "hits",
-        "central",
-        "kyiv",
-        "france",
-        "child",
-        "killed",
-        "residential",
-        "high-rise",
-        "voice"
-      ],
-      "timestamp": 1790381509.8243985,
-      "title": "Ukraine: Deadly Russian drone strike hits central Kyiv - France 24"
-    },
-    {
-      "event_type": "Drone",
-      "location": "أوكرانيا",
-      "confidence": "Confirmed",
-      "score": 80,
-      "tokens": [
-        "least",
-        "five",
-        "killed",
-        "russian",
-        "drone",
-        "strike",
-        "ukraine",
-        "front",
-        "line",
-        "aljazeera",
-        "com",
-        "bus",
-        "southern",
-        "euronews"
-      ],
-      "timestamp": 1790381510.3404014,
-      "title": "Five killed in Russian drone strike on bus in southern Ukraine - Euronews.com"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "russian",
-        "drones",
-        "attack",
-        "kyiv",
-        "daytime",
-        "hours",
-        "wednesday",
-        "cnn"
-      ],
-      "timestamp": 1790381510.8177075,
-      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
-    },
-    {
-      "event_type": "Drone",
-      "location": "أوكرانيا",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "ukraine",
-        "kills",
-        "two",
-        "drone",
-        "attacks",
-        "russia",
-        "hits",
-        "oil",
-        "refinery",
-        "train",
-        "officials",
-        "reuters"
-      ],
-      "timestamp": 1790381514.3873687,
-      "title": "Ukraine kills two in drone attacks on Russia, hits oil refinery and train, officials say - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "ukrainian",
-        "students",
-        "flee",
-        "russian",
-        "drone",
-        "attack",
-        "cnn"
-      ],
-      "timestamp": 1790381514.9185264,
-      "title": "Ukrainian students flee Russian drone attack - CNN"
-    },
-    {
-      "event_type": "Missile",
-      "location": "أوكرانيا",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "russia",
-        "adapts",
-        "training",
-        "missile",
-        "lead",
-        "ballistic",
-        "onslaught",
-        "ukraine",
-        "reuters"
-      ],
-      "timestamp": 1790381515.4248183,
-      "title": "Russia adapts a training missile to lead its ballistic onslaught of Ukraine - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كييف",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "russian",
-        "drones",
-        "kill",
-        "two",
-        "ukraine-moldova",
-        "border",
-        "crossing",
-        "one",
-        "dead",
-        "kyiv",
-        "attacks",
-        "reuters"
-      ],
-      "timestamp": 1790381515.9311008,
-      "title": "Russian drones kill two at Ukraine-Moldova border crossing, one dead in Kyiv attacks - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "روسيا",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "germany",
-        "russia",
-        "responsible",
-        "drone",
-        "attack",
-        "leipzig",
-        "airport",
-        "reuters"
-      ],
-      "timestamp": 1790381516.4330897,
-      "title": "Germany says Russia responsible for drone attack at Leipzig airport - Reuters"
-    },
-    {
-      "event_type": "Drone",
       "location": "روسيا",
       "confidence": "Confirmed",
       "score": 90,
@@ -2893,6 +2674,216 @@
       ],
       "timestamp": 1790547681.939499,
       "title": "Drone strike on train is calculated escalation by Putin, German minister says - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "الرياض",
+      "confidence": "Confirmed",
+      "score": 90,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepts",
+        "houthi",
+        "drones",
+        "bound",
+        "riyadh",
+        "euronews",
+        "com",
+        "intercepted",
+        "headed",
+        "timesofisrael",
+        "arabia",
+        "downed",
+        "launched",
+        "daily",
+        "star"
+      ],
+      "timestamp": 1790556909.7158291,
+      "title": "Saudi coalition intercepts Houthi drones bound for Riyadh - Euronews.com"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "russia",
+        "perm",
+        "oil",
+        "refinery",
+        "halted",
+        "operations",
+        "friday",
+        "drone",
+        "attack",
+        "sources",
+        "reuters",
+        "shut",
+        "down",
+        "following",
+        "news"
+      ],
+      "timestamp": 1790556910.2017705,
+      "title": "Russia's Perm oil refinery halted operations after Friday drone attack, sources say - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "kill",
+        "two",
+        "market",
+        "outside",
+        "kyiv",
+        "three",
+        "others",
+        "different",
+        "regions",
+        "officials",
+        "reuters"
+      ],
+      "timestamp": 1790556910.668304,
+      "title": "Russian drones kill two in market outside Kyiv, three others in different regions, officials say - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "attack",
+        "kyiv",
+        "daytime",
+        "hours",
+        "wednesday",
+        "cnn"
+      ],
+      "timestamp": 1790556911.1904323,
+      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepts",
+        "houthi",
+        "missiles",
+        "drones",
+        "reuters"
+      ],
+      "timestamp": 1790556911.6670084,
+      "title": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukrainian",
+        "students",
+        "flee",
+        "russian",
+        "drone",
+        "attack",
+        "cnn"
+      ],
+      "timestamp": 1790556915.1655915,
+      "title": "Ukrainian students flee Russian drone attack - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "regional",
+        "head",
+        "facilities",
+        "ablaze",
+        "drone",
+        "strike",
+        "bloomberg"
+      ],
+      "timestamp": 1790556915.6523767,
+      "title": "Russian Regional Head Says Facilities Ablaze After Drone Strike - Bloomberg"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "two",
+        "suspected",
+        "ballistic",
+        "missiles",
+        "off",
+        "east",
+        "coast",
+        "within",
+        "three",
+        "hours",
+        "reuters"
+      ],
+      "timestamp": 1790556916.125669,
+      "title": "North Korea fires two suspected ballistic missiles off east coast within three hours - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "deadly",
+        "russian",
+        "drone",
+        "strike",
+        "hits",
+        "central",
+        "kyiv",
+        "france"
+      ],
+      "timestamp": 1790556916.5962968,
+      "title": "Ukraine: Deadly Russian drone strike hits central Kyiv - France 24"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "moscow",
+        "targeted",
+        "ukraine",
+        "largest",
+        "ever",
+        "drone",
+        "attack",
+        "final",
+        "day",
+        "russia",
+        "election",
+        "cnn"
+      ],
+      "timestamp": 1790556917.0928643,
+      "title": "Moscow targeted by Ukraine’s largest ever drone attack on final day of Russia’s election - CNN"
     }
   ]
 }
