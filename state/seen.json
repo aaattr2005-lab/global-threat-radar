@@ -1859,6 +1859,220 @@
       ],
       "timestamp": 1790751108.9457762,
       "title": "Ukrainian students flee Russian drone attack - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Confirmed",
+      "score": 95,
+      "tokens": [
+        "russia",
+        "ballistic",
+        "missile",
+        "jet-propelled",
+        "drone",
+        "blitz",
+        "keeps",
+        "kyiv",
+        "edge",
+        "news",
+        "wowk",
+        "indian",
+        "express"
+      ],
+      "timestamp": 1790773457.6480327,
+      "title": "Russia’s ballistic missile and jet-propelled drone blitz keeps Kyiv on edge - AP News"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "ukrainian",
+        "scientist",
+        "recalls",
+        "his",
+        "tense",
+        "rescue",
+        "russian",
+        "drone",
+        "strike",
+        "reuters",
+        "australian"
+      ],
+      "timestamp": 1790773458.0933712,
+      "title": "Ukrainian scientist recalls his tense rescue after a Russian drone strike - Reuters"
+    },
+    {
+      "event_type": "Missile",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "marines",
+        "injured",
+        "iranian",
+        "missile",
+        "attack",
+        "strait",
+        "hormuz",
+        "anadolu",
+        "ajans",
+        "previously",
+        "undisclosed",
+        "strike",
+        "sofx",
+        "eight",
+        "vessel",
+        "trt",
+        "world",
+        "yahoo"
+      ],
+      "timestamp": 1790773458.5537055,
+      "title": "8 US Marines injured in Iranian missile attack in Strait of Hormuz: Report - Anadolu Ajansı"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "men",
+        "cling",
+        "burning",
+        "kyiv",
+        "building",
+        "russian",
+        "drone",
+        "strike",
+        "nbc",
+        "news",
+        "side",
+        "yahoo",
+        "modern",
+        "ghana"
+      ],
+      "timestamp": 1790773459.0969064,
+      "title": "Men cling to burning Kyiv building after Russian drone strike - NBC News"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukrainian",
+        "science",
+        "academy",
+        "struck",
+        "drone",
+        "played",
+        "key",
+        "role",
+        "research",
+        "york",
+        "times"
+      ],
+      "timestamp": 1790773459.564496,
+      "title": "Ukrainian Science Academy, Struck by Drone, Played Key Role in Research - The New York Times"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "kyiv",
+        "science",
+        "academy",
+        "hit",
+        "dead",
+        "russian",
+        "jet-drones",
+        "strike",
+        "across",
+        "ukraine",
+        "reuters"
+      ],
+      "timestamp": 1790773463.0057743,
+      "title": "Kyiv Science Academy hit, 10 dead as Russian jet-drones strike across Ukraine - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepts",
+        "houthi",
+        "missiles",
+        "drones",
+        "reuters"
+      ],
+      "timestamp": 1790773463.4798539,
+      "title": "Saudi coalition says it intercepts Houthi missiles, drones - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "attack",
+        "kyiv",
+        "daytime",
+        "hours",
+        "wednesday",
+        "cnn"
+      ],
+      "timestamp": 1790773463.9622827,
+      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "moscow",
+        "targeted",
+        "ukraine",
+        "largest",
+        "ever",
+        "drone",
+        "attack",
+        "final",
+        "day",
+        "russia",
+        "election",
+        "cnn"
+      ],
+      "timestamp": 1790773464.452756,
+      "title": "Moscow targeted by Ukraine’s largest ever drone attack on final day of Russia’s election - CNN"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "defence",
+        "intercepted",
+        "houthi",
+        "missile",
+        "fired",
+        "riyadh",
+        "jazeera"
+      ],
+      "timestamp": 1790773464.8455343,
+      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
     }
   ]
 }
