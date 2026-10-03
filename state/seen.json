@@ -2250,6 +2250,222 @@
       ],
       "timestamp": 1791015217.4229476,
       "title": "Shrapnel from intercepted Houthi missile injures resident in Asir - Arab News"
+    },
+    {
+      "event_type": "Missile",
+      "location": "غير محدد",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "army",
+        "awards",
+        "lockheed",
+        "martin",
+        "billion",
+        "precision",
+        "strike",
+        "missile",
+        "defense",
+        "system",
+        "game",
+        "changer",
+        "military",
+        "com"
+      ],
+      "timestamp": 1791033881.740367,
+      "title": "Army Awards Lockheed Martin $1.2 Billion Precision Strike Missile Defense System: 'Game Changer' - Military.com"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الجنوبية",
+      "confidence": "Confirmed",
+      "score": 95,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "ballistic",
+        "missile",
+        "towards",
+        "sea",
+        "south",
+        "jazeera",
+        "launch",
+        "investigation",
+        "vijesti",
+        "launched",
+        "another",
+        "projectile",
+        "toward",
+        "politico"
+      ],
+      "timestamp": 1791033882.1866486,
+      "title": "North Korea fires ballistic missile towards the sea, South Korea says - Al Jazeera"
+    },
+    {
+      "event_type": "Missile",
+      "location": "غير محدد",
+      "confidence": "Confirmed",
+      "score": 80,
+      "tokens": [
+        "cheong",
+        "dae",
+        "holds",
+        "emergency",
+        "security",
+        "meeting",
+        "korea",
+        "missile",
+        "launch",
+        "yonhap",
+        "news",
+        "agency",
+        "over",
+        "ballistic",
+        "urges",
+        "immediate",
+        "halt",
+        "sbs"
+      ],
+      "timestamp": 1791033882.64493,
+      "title": "Cheong Wa Dae holds emergency security meeting on N. Korea's missile launch - Yonhap News Agency"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "السعودية",
+      "confidence": "Confirmed",
+      "score": 80,
+      "tokens": [
+        "saudi",
+        "coalition",
+        "intercepted",
+        "houthi",
+        "missiles",
+        "drones",
+        "ndtv",
+        "intercepts",
+        "reuters",
+        "com"
+      ],
+      "timestamp": 1791033883.1037023,
+      "title": "Saudi coalition says it intercepts Houthi missiles, drones - reuters.com"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "launches",
+        "ballistic",
+        "missile",
+        "seoul",
+        "demands",
+        "apology",
+        "over",
+        "wounded",
+        "soldiers",
+        "guardian"
+      ],
+      "timestamp": 1791033883.538427,
+      "title": "North Korea launches ballistic missile after Seoul demands apology over wounded soldiers - The Guardian"
+    },
+    {
+      "event_type": "Missile",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "first",
+        "combat",
+        "use",
+        "own",
+        "ballistic",
+        "missile",
+        "york",
+        "times"
+      ],
+      "timestamp": 1791033886.9976125,
+      "title": "Ukraine Reports First Combat Use of Its Own Ballistic Missile - The New York Times"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russia",
+        "ballistic",
+        "missile",
+        "jet-propelled",
+        "drone",
+        "blitz",
+        "keeps",
+        "kyiv",
+        "edge",
+        "news"
+      ],
+      "timestamp": 1791033887.4336383,
+      "title": "Russia’s ballistic missile and jet-propelled drone blitz keeps Kyiv on edge - AP News"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "shot",
+        "down",
+        "ballistic",
+        "missiles",
+        "launched",
+        "houthis",
+        "jazeera"
+      ],
+      "timestamp": 1791033887.8601604,
+      "title": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "russian",
+        "drones",
+        "attack",
+        "kyiv",
+        "daytime",
+        "hours",
+        "wednesday",
+        "cnn"
+      ],
+      "timestamp": 1791033888.3497534,
+      "title": "Russian drones attack Kyiv during daytime hours Wednesday - CNN"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "defence",
+        "intercepted",
+        "houthi",
+        "missile",
+        "fired",
+        "riyadh",
+        "jazeera"
+      ],
+      "timestamp": 1791033888.7508528,
+      "title": "Saudi-led coalition says defence intercepted Houthi missile fired at Riyadh - Al Jazeera"
     }
   ]
 }
