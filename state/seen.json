@@ -3154,6 +3154,222 @@
       ],
       "timestamp": 1792193415.6436052,
       "title": "Houthi Missiles Strike Government Headquarters in Yemen - The New York Times"
+    },
+    {
+      "event_type": "Missile",
+      "location": "غير محدد",
+      "confidence": "Confirmed",
+      "score": 100,
+      "tokens": [
+        "russian",
+        "yasen-m",
+        "nuclear",
+        "attack",
+        "submarine",
+        "launches",
+        "cruise",
+        "missile",
+        "strikes",
+        "pacific",
+        "show",
+        "force",
+        "military",
+        "watch",
+        "magazine"
+      ],
+      "timestamp": 1792200493.4559047,
+      "title": "Russian Yasen-M Nuclear Attack Submarine Launches Cruise Missile Strikes in Pacific Show of Force - Military Watch Magazine"
+    },
+    {
+      "event_type": "Missile",
+      "location": "عدن",
+      "confidence": "Confirmed",
+      "score": 85,
+      "tokens": [
+        "missiles",
+        "strike",
+        "airport",
+        "yemen",
+        "port",
+        "city",
+        "aden",
+        "officials",
+        "news",
+        "houthi",
+        "casualties",
+        "arab"
+      ],
+      "timestamp": 1792200493.922299,
+      "title": "2 missiles strike the airport in Yemen’s port city of Aden, officials say - AP News"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "drone",
+        "strike",
+        "ship",
+        "romanian",
+        "waters",
+        "raises",
+        "fear",
+        "war",
+        "ukraine",
+        "spreading",
+        "pbs",
+        "fire",
+        "raise",
+        "fears",
+        "yahoo",
+        "news",
+        "canada",
+        "shoreline",
+        "media",
+        "group"
+      ],
+      "timestamp": 1792200494.4348664,
+      "title": "Drone strike on ship in Romanian waters raises fear that war in Ukraine is spreading - PBS"
+    },
+    {
+      "event_type": "Missile",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "houthi",
+        "missile",
+        "attack",
+        "targets",
+        "saudi",
+        "capital",
+        "riyadh",
+        "third",
+        "day",
+        "row",
+        "jazeera"
+      ],
+      "timestamp": 1792200494.9041092,
+      "title": "Houthi missile attack targets Saudi capital Riyadh for third day in a row - Al Jazeera"
+    },
+    {
+      "event_type": "Missile",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "houthi",
+        "missile",
+        "attack",
+        "yemeni",
+        "presidential",
+        "palace",
+        "kills",
+        "five",
+        "minister",
+        "bbc"
+      ],
+      "timestamp": 1792200495.3856187,
+      "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says - BBC"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukrainian",
+        "drones",
+        "strike",
+        "more",
+        "than",
+        "100km",
+        "russian",
+        "territory",
+        "jazeera"
+      ],
+      "timestamp": 1792200498.8800914,
+      "title": "Ukrainian drones strike more than 100km into Russian territory - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "three",
+        "killed",
+        "massive",
+        "russian",
+        "drone",
+        "attack",
+        "kirovohrad",
+        "region",
+        "news"
+      ],
+      "timestamp": 1792200499.373576,
+      "title": "Three killed in massive Russian drone attack on Kirovohrad region - AP News"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "intercepts",
+        "three",
+        "houthi",
+        "ballistic",
+        "missiles",
+        "jazeera"
+      ],
+      "timestamp": 1792200499.8654623,
+      "title": "Saudi-led coalition says it intercepts three Houthi ballistic missiles - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "drone",
+        "sinks",
+        "ship",
+        "off",
+        "bulgaria",
+        "fears",
+        "grow",
+        "about",
+        "hybrid",
+        "attacks",
+        "russia",
+        "reuters"
+      ],
+      "timestamp": 1792200500.392119,
+      "title": "Drone sinks ship off Bulgaria, as fears grow about hybrid attacks by Russia - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "rights",
+        "group",
+        "paramilitary",
+        "drone",
+        "strike",
+        "sudan",
+        "killed",
+        "ethiopian",
+        "border",
+        "news"
+      ],
+      "timestamp": 1792200500.8769848,
+      "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border - AP News"
     }
   ]
 }
