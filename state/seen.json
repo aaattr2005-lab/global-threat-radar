@@ -1,208 +1,6 @@
 {
   "events": [
     {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Confirmed",
-      "score": 85,
-      "tokens": [
-        "market",
-        "drone",
-        "strike",
-        "kills",
-        "least",
-        "150",
-        "sudanese",
-        "fighters",
-        "hit",
-        "civilians",
-        "york",
-        "times",
-        "more",
-        "than",
-        "war",
-        "guardian"
-      ],
-      "timestamp": 1793692726.0049303,
-      "title": "Market Drone Strike Kills at Least 150 as Sudanese Fighters Hit Civilians - The New York Times"
-    },
-    {
-      "event_type": "Drone",
-      "location": "الدمام",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "yemen",
-        "houthis",
-        "they",
-        "launched",
-        "drones",
-        "towards",
-        "saudi",
-        "arabia",
-        "dammam",
-        "airport",
-        "reuters"
-      ],
-      "timestamp": 1793692726.3246622,
-      "title": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "sudan",
-        "files",
-        "complaints",
-        "against",
-        "ethiopia",
-        "over",
-        "deadly",
-        "drone",
-        "spree",
-        "jazeera"
-      ],
-      "timestamp": 1793692726.6660585,
-      "title": "Sudan files complaints against Ethiopia with UN over deadly drone spree - Al Jazeera"
-    },
-    {
-      "event_type": "Drone interception",
-      "location": "مكة",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "yemen",
-        "houthis",
-        "deny",
-        "launching",
-        "drone",
-        "coalition",
-        "interception",
-        "mecca",
-        "region",
-        "reuters"
-      ],
-      "timestamp": 1793692727.0073354,
-      "title": "Yemen's Houthis deny launching drone after coalition reports interception in Mecca region - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "russian",
-        "drone",
-        "strike",
-        "kills",
-        "ukrainian",
-        "rail",
-        "platform",
-        "die",
-        "other",
-        "attacks",
-        "reuters"
-      ],
-      "timestamp": 1793692727.3611517,
-      "title": "Russian drone strike kills 14 on Ukrainian rail platform, 6 die in other attacks - Reuters"
-    },
-    {
-      "event_type": "Drone",
-      "location": "كوريا الشمالية",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "north",
-        "korea",
-        "tests",
-        "attack",
-        "drones",
-        "kim",
-        "calls",
-        "absolute",
-        "superiority",
-        "france"
-      ],
-      "timestamp": 1793692733.6993282,
-      "title": "North Korea tests attack drones as Kim calls for 'absolute superiority' - France 24"
-    },
-    {
-      "event_type": "Missile interception",
-      "location": "السعودية",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "saudi-led",
-        "coalition",
-        "intercepts",
-        "missile",
-        "fighting",
-        "rages",
-        "yemen",
-        "al-jawf",
-        "jazeera"
-      ],
-      "timestamp": 1793692734.0335045,
-      "title": "Saudi-led coalition intercepts a missile as fighting rages in Yemen’s al-Jawf - Al Jazeera"
-    },
-    {
-      "event_type": "Drone interception",
-      "location": "مكة",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "saudi",
-        "arabia",
-        "interception",
-        "houthi",
-        "drone",
-        "targeting",
-        "mecca",
-        "jazeera"
-      ],
-      "timestamp": 1793692734.3469534,
-      "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca - Al Jazeera"
-    },
-    {
-      "event_type": "Drone",
-      "location": "غير محدد",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "drone",
-        "strike",
-        "sudan",
-        "nyala",
-        "kills",
-        "least",
-        "injures",
-        "jazeera"
-      ],
-      "timestamp": 1793692734.6833138,
-      "title": "Drone strike in Sudan’s Nyala kills at least 21, injures 40 - Al Jazeera"
-    },
-    {
-      "event_type": "Drone interception",
-      "location": "السعودية",
-      "confidence": "Likely",
-      "score": 55,
-      "tokens": [
-        "saudi-led",
-        "coalition",
-        "intercepted",
-        "houthi",
-        "missiles",
-        "drones",
-        "attacking",
-        "kingdom",
-        "reuters"
-      ],
-      "timestamp": 1793692735.019418,
-      "title": "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom - Reuters"
-    },
-    {
       "event_type": "Missile",
       "location": "كوريا الشمالية",
       "confidence": "Confirmed",
@@ -1701,6 +1499,218 @@
         "reuters"
       ],
       "timestamp": 1793843484.888939,
+      "title": "Drone strike on market town exposes reach of trade fuelling Sudan war - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "العراق",
+      "confidence": "Confirmed",
+      "score": 95,
+      "tokens": [
+        "drones",
+        "attack",
+        "iranian",
+        "kurdish",
+        "opposition",
+        "iraq",
+        "sulaymaniyah",
+        "east",
+        "erbil",
+        "sources",
+        "reuters",
+        "arab",
+        "news",
+        "arabiya",
+        "english",
+        "devdiscourse"
+      ],
+      "timestamp": 1793867765.2708414,
+      "title": "Drones attack Iranian Kurdish opposition in Iraq's Sulaymaniyah and east Erbil, sources say - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "israeli",
+        "drone",
+        "strike",
+        "kills",
+        "palestinian",
+        "wounds",
+        "another",
+        "displacement",
+        "tent",
+        "gaza",
+        "rriyet",
+        "daily",
+        "news",
+        "dies",
+        "imemc",
+        "saudi",
+        "gazette"
+      ],
+      "timestamp": 1793867765.6763113,
+      "title": "Israeli drone strike kills Palestinian, wounds another at displacement tent in Gaza - Hürriyet Daily News"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukrainian",
+        "drone",
+        "strike",
+        "sets",
+        "fire",
+        "hub",
+        "e-retailer",
+        "ozon",
+        "southern",
+        "russia",
+        "reuters"
+      ],
+      "timestamp": 1793867766.0857868,
+      "title": "Ukrainian drone strike sets fire to hub of e-retailer Ozon in southern Russia - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "assisted",
+        "venezuela",
+        "deadly",
+        "drone",
+        "strike",
+        "officials",
+        "york",
+        "times"
+      ],
+      "timestamp": 1793867766.454093,
+      "title": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say - The New York Times"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كوريا الشمالية",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "north",
+        "korea",
+        "fires",
+        "multiple",
+        "missiles",
+        "fourth",
+        "weapons",
+        "launch",
+        "month",
+        "seoul",
+        "reuters"
+      ],
+      "timestamp": 1793867766.7756941,
+      "title": "North Korea fires multiple missiles in fourth weapons launch in a month, Seoul says - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "oil",
+        "transit",
+        "via",
+        "atyrau-samara",
+        "pipeline",
+        "resumes",
+        "drone",
+        "attack",
+        "kazakhstan",
+        "reuters"
+      ],
+      "timestamp": 1793867770.275824,
+      "title": "Oil transit via Atyrau-Samara pipeline resumes after drone attack, Kazakhstan says - Reuters"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "war",
+        "attrition",
+        "drones",
+        "give",
+        "military",
+        "edge",
+        "sudan",
+        "york",
+        "times"
+      ],
+      "timestamp": 1793867770.647506,
+      "title": "‘It’s a War of Attrition’: Drones Give No Military Edge in Sudan - The New York Times"
+    },
+    {
+      "event_type": "Drone",
+      "location": "الدمام",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "yemen",
+        "houthis",
+        "they",
+        "launched",
+        "drones",
+        "towards",
+        "saudi",
+        "arabia",
+        "dammam",
+        "airport",
+        "reuters"
+      ],
+      "timestamp": 1793867770.9929442,
+      "title": "Yemen's Houthis say they launched drones towards Saudi Arabia's Dammam airport - Reuters"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "مكة",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "interception",
+        "houthi",
+        "drone",
+        "targeting",
+        "mecca",
+        "jazeera"
+      ],
+      "timestamp": 1793867771.347845,
+      "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "غير محدد",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "drone",
+        "strike",
+        "market",
+        "town",
+        "exposes",
+        "reach",
+        "trade",
+        "fuelling",
+        "sudan",
+        "war",
+        "reuters"
+      ],
+      "timestamp": 1793867771.6846056,
       "title": "Drone strike on market town exposes reach of trade fuelling Sudan war - Reuters"
     }
   ]
