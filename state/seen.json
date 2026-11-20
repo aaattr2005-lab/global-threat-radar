@@ -1173,6 +1173,228 @@
       ],
       "timestamp": 1795147224.5857532,
       "title": "Seven sailors missing after drones strike tankers near Romania’s Black Sea coast - The Guardian"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Confirmed",
+      "score": 90,
+      "tokens": [
+        "ukrainian",
+        "drones",
+        "missiles",
+        "strike",
+        "kerch",
+        "bridge",
+        "links",
+        "russia",
+        "crimea",
+        "news",
+        "video",
+        "moment",
+        "linking",
+        "euronews",
+        "com"
+      ],
+      "timestamp": 1795178533.5241103,
+      "title": "Video. Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia - Euronews.com"
+    },
+    {
+      "event_type": "Missile",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 70,
+      "tokens": [
+        "riyadh",
+        "tallest",
+        "skyscraper",
+        "struck",
+        "houthi",
+        "missile",
+        "attack",
+        "nbc",
+        "news",
+        "hits",
+        "housing",
+        "saudi",
+        "arabia",
+        "wealth",
+        "fund",
+        "connected",
+        "india",
+        "missiles",
+        "strike",
+        "city",
+        "video",
+        "repubblica"
+      ],
+      "timestamp": 1795178533.9613972,
+      "title": "Houthi attack on Riyadh: missiles strike the city’s tallest skyscraper – video - la Repubblica"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "السعودية",
+      "confidence": "Likely",
+      "score": 60,
+      "tokens": [
+        "saudi-led",
+        "coalition",
+        "intercepted",
+        "houthi",
+        "missile",
+        "targeting",
+        "kingdom",
+        "southern",
+        "region",
+        "anadolu",
+        "ajans",
+        "militia",
+        "aimed",
+        "saudi",
+        "arabia",
+        "trt",
+        "world",
+        "internazionale",
+        "cyprus",
+        "mail"
+      ],
+      "timestamp": 1795178534.4376848,
+      "title": "Saudi-led coalition says it intercepted Houthi missile targeting kingdom’s southern region - Anadolu Ajansı"
+    },
+    {
+      "event_type": "Missile",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "poland",
+        "russian",
+        "missile",
+        "hit",
+        "territory",
+        "attack",
+        "ukraine",
+        "france"
+      ],
+      "timestamp": 1795178534.8396144,
+      "title": "Poland says Russian missile hit its territory during attack on Ukraine - France 24"
+    },
+    {
+      "event_type": "Drone",
+      "location": "روسيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "exclusive",
+        "drone",
+        "attacks",
+        "nearly",
+        "halve",
+        "russia",
+        "november",
+        "oil",
+        "refining",
+        "sources",
+        "reuters"
+      ],
+      "timestamp": 1795178535.2291152,
+      "title": "EXCLUSIVE: Drone attacks nearly halve Russia's November oil refining, sources say - Reuters"
+    },
+    {
+      "event_type": "Missile interception",
+      "location": "الرياض",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "loud",
+        "blast",
+        "rocks",
+        "riyadh",
+        "saudi-led",
+        "coalition",
+        "intercepted",
+        "houthi",
+        "missiles",
+        "france"
+      ],
+      "timestamp": 1795178538.656804,
+      "title": "Loud blast rocks Riyadh as Saudi-led coalition says it intercepted Houthi missiles - France 24"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "mourns",
+        "mother",
+        "athlete",
+        "drone",
+        "operator",
+        "killed",
+        "russian",
+        "strike",
+        "jazeera"
+      ],
+      "timestamp": 1795178539.0527358,
+      "title": "Ukraine mourns mother, athlete and drone operator killed in Russian strike - Al Jazeera"
+    },
+    {
+      "event_type": "Missile",
+      "location": "كييف",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "ukraine",
+        "three",
+        "kyiv",
+        "bridges",
+        "hit",
+        "major",
+        "russian",
+        "missile",
+        "attack",
+        "bbc"
+      ],
+      "timestamp": 1795178539.441934,
+      "title": "Ukraine: Three Kyiv bridges hit during major Russian missile attack - BBC"
+    },
+    {
+      "event_type": "Drone interception",
+      "location": "مكة",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "saudi",
+        "arabia",
+        "interception",
+        "houthi",
+        "drone",
+        "targeting",
+        "mecca",
+        "jazeera"
+      ],
+      "timestamp": 1795178539.8520646,
+      "title": "Saudi Arabia reports interception of Houthi drone targeting Mecca - Al Jazeera"
+    },
+    {
+      "event_type": "Drone",
+      "location": "أوكرانيا",
+      "confidence": "Likely",
+      "score": 55,
+      "tokens": [
+        "provide",
+        "ukraine",
+        "long-range",
+        "drones",
+        "part",
+        "260m",
+        "package",
+        "bbc"
+      ],
+      "timestamp": 1795178540.257931,
+      "title": "UK to provide Ukraine with long-range drones as part of £260m package - BBC"
     }
   ]
 }
